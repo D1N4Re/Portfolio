@@ -1,6 +1,6 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
+  homepage: 'localhost:3000',
   title: 'CN.',
 }
 
@@ -9,11 +9,11 @@ const about = {
   name: 'Cyril NIVET',
   role: 'Administrateur system/réseau',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    " J'étudie à l'IIA (Institut d'Informatique Appliqué) de LAVAL en deuxième année de BTS SIO (Services Informatiques aux Organisations) options SISR (Solutions d'Infrastructure Systèmes et Réseaux). Je suis également alternant dans l'entreprise ITSolutions à Laval.",
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/cyril-nivet-47aa89233/',
+    github: 'https://github.com/D1N4Re/Portfolio',
   },
 }
 
@@ -21,7 +21,15 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Projet 1',
+    description:
+      'Ad Windows DNS, DHCP, DFS, DFSR',
+    stack: ['SASS', 'TypeScript', 'React'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+  },
+  {
+    name: 'Projet 2',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['SASS', 'TypeScript', 'React'],
@@ -29,15 +37,7 @@ const projects = [
     livePreview: 'https://github.com',
   },
   {
-    name: 'Project 2',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 3',
+    name: 'Projet 3',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['SASS', 'TypeScript', 'React'],
@@ -65,7 +65,7 @@ const skills = [
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'cyril.nivet@iia-formation.fr',
 }
 
 export { header, about, projects, skills, contact }
